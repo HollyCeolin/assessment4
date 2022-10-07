@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "breed": "French Bulldog",
+      "name": "Bruce"
+    },
+    {
+      "id": 2,
+      "breed": "Labrador",
+      "name": "Tacoma"
+    },
+    
+    {
+      "id": 3,
+      "breed": "daschaund",
+      "name": "Henry"
+    }
+  ]
