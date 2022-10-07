@@ -27,7 +27,7 @@ const dogs = require('./db.json')
 let globalId = 3
 
 module.exports = {
-    getDogs: (req, res) => res.status(200).send(dogs),
+    getDog: (req, res) => res.status(200).send(dogs),
     deleteDog: (req, res) => {
         let index = dogs.findIndex(elem => elem.id === +req.params.id)
         dogs.splice(index, 1)

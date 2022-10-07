@@ -7,10 +7,10 @@ app.use(cors());
 
 app.use(express.json());
 
-const { getCompliment } = require('./controller')
-const { getFortune } = require('./controller')
-app.get('/api/compliment', getCompliment);
-app.get('/api/compliment', getFortune);
+//const { getCompliment } = require('./controller')
+//const { getFortune } = require('./controller')
+//app.get('/api/compliment', getCompliment);
+//app.get('/api/compliment', getFortune);
 
 const {
     getDog,
